@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+salario_bruto= 35000
+pagas= 14
+retencion= 17.3 
+salario_neto= (salario_bruto-((salario_bruto*retencion)/100))/pagas
+
+print(salario_neto)
